@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.veggietaler.customview">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SlideCutActivity" />
+        <activity android:name=".BannerActivity" />
+        <activity android:name=".ZoomCircleActivity" />
+        <activity android:name=".PaintTextActivity" />
+        <activity android:name=".MaskFilterActivity" />
+        <activity android:name=".ImageMaskFilterActivity" />
+        <activity android:name=".PathEffectActivity" />
+        <activity android:name=".ECGViewActivity" />
+        <activity android:name=".BitmapShaderActivity" />
+        <activity android:name=".BrickViewActivity" />
+        <activity android:name=".GradientViewActivity" />
+        <activity android:name=".ReflectViewActivity" />
+        <activity android:name=".DreamEffectActivity" />
+        <activity android:name=".MatrixImageActivity" />
+        <activity android:name=".MultiCircleActivity" />
+        <activity android:name=".BitmapMeshActivity" />
+        <activity android:name=".BitmapMesh2Activity" />
+        <activity android:name=".CanvasViewActivity" />
+        <activity android:name=".PathViewActivity" />
+        <activity android:name=".WaveViewActivity" />
+        <activity android:name=".LineChartActivity" />
+        <activity android:name=".LayerViewActivity" />
+        <activity android:name=".PageTurnActivity"></activity>
+    </application>
+
+</manifest>
