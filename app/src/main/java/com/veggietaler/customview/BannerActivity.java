@@ -11,6 +11,7 @@ public class BannerActivity extends AppCompatActivity {
 
     private BannerLayout bannerLayout;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
