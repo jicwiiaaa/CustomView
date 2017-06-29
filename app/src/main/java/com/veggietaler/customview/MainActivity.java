@@ -12,7 +12,6 @@ import butterknife.OnClick;
 
 public class MainActivity extends AppCompatActivity {
 
-
     @BindView(R.id.tv_slide_cut)
     TextView tvSlideCut;
     @BindView(R.id.tv_banner)
